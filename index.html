@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="class/style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
   <header>
@@ -18,28 +19,65 @@
          <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
          <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
      </div>
-    <nav>
-         <ul>
-              <li>
-                <a href="index.html">Home</a>
-             </li> 
-             <li>
-               <a href="pages/obesidadinfantil.html">Obesidad Infantil</a>
-             </li>
-             <li>
-                <a href="pages/familia.html">Familia</a>
-             </li>
-             <li> 
-                <a href="pages/educacionalimentaria.html">Educacion Alimentaria</a>
-             </li>
-             <li>
-                <a href="pages/contactos.html">Contacto</a>
-             </li>
-            </ul>
-     </nav>
+     <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/obesidadinfantil.html">Obesidad Infantil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contactos.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/educacionalimentaria.html">Educacion Alimentaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/familia.html">Familia</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
  </header> 
     <main>
-         <h1 class="titulo"> Obesidad Infantil</h1>
+         <h1 class="titulo">Nutricion para la familia</h1>
+         <div id="carouselExampleIndicators" class="carousel slide"     data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Image/nutricion_415719128_130674745_1706x960.jpg" width="100%" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Image/nutricion-ninos-adultos-nutricion-organica-concepto-nutricion-saludable-habitos-nutricionales-familia-disfruta-comida-casera-ejemplo-personal-padre-ensena-su-hijo-comer-alimentos-naturales-nino-papa-comen_474717-15428.jpg" width=" 100%" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Image/dieta-ninos-krDE-U2036487577783UF-575x323@RC.jpg" width="100%" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
          <article class="texto">
              <p>Afección de los niños caracterizada por un importante sobrepeso para su edad y altura.
               La obesidad infantil puede provocar diabetes, presión arterial elevada y niveles de colesterol altos.
@@ -51,6 +89,30 @@
              la inactividad, por ejemplo, no hacer suficiente ejercicio y pasar mucho tiempo ante la televisión o la computadora.
               enfermedades genéticas (heredadas), aunque éstas no son frecuentes.
             </p>
+            <picture class="apple">
+              <img src="Image/klipartz.com-141.png" width="50px" height="50px">
+            </picture>
+            <h2>Una alimentación saludable</h2>
+            <p>Comer en familia es una costumbre agradable tanto para los padres como para los hijos. A los niños les agrada la previsibilidad de las comidas en familia, y los padres tienen la oportunidad de ponerse al día con sus hijos. Los niños que participan en comidas en familia con regularidad presentan estas características:es más probable que coman frutas, vegetales y cerealeses menos probable que coman refrigerios poco saludableses menos probable que fumen, usen marihuana o beban alcohol
+            Por otra parte, las comidas en familia ofrecen la oportunidad de presentarle al niño nuevos alimentos y de que usted dé el ejemplo llevando una dieta saludable.
+            Es posible que los adolescentes no se entusiasmen con la perspectiva de comer en familia; esto no es sorprendente porque están tratando de establecer su independencia. Sin embargo, algunos estudios han demostrado que los adolescentes todavía desean los consejos y la opinión de sus padres, por lo cual la hora de la comida en familia debe usarse como una oportunidad para reconectarse.</p>
+            <picture class="apple">
+              <img src="Image/klipartz.com-141.png" width="50px" height="50px">
+            </picture>
+
+            <h2>Abastecerse de alimentos saludables</h2>
+            <p>Los niños, en especial los más pequeños, comen sobre todo lo que está disponible en la casa. Por eso, es importante controlar las provisiones: los alimentos que sirve en las comidas y los que tiene a mano para refrigerios.
+
+              Siga estas sugerencias básicas:
+              
+              Incluya frutas y verduras en la rutina diaria, tratando de servir un mínimo de cinco porciones diarias. Asegúrese de servir frutas y verduras en todas las comidas.
+              Facilite que el niño elija refrigerios saludables, teniendo a mano frutas y verduras listas para comer. Otros refrigerios saludables son el yogur, los tallos de apio con mantequilla de maní o las galletas integrales con queso.
+              Sirva carnes desgrasadas y otras buenas fuentes de proteína, como el pescado, los huevos y las frutas secas.
+              Compre panes integrales y cereales, para que el niño ingiera más fibra.
+              Limite el consumo de la grasa, evitando las comidas fritas y cocinando los alimentos en el horno, en la parrilla o al vapor. Elija productos lácteos de bajo contenido graso o descremados.
+              Limite las comidas en restaurantes rápidos y los refrigerios poco nutritivos, como las papas fritas y los dulces. No los elimine por completo de su casa, pero ofrézcalos “de vez en cuando” para que el niño no se sienta privado por completo de ellos.
+              Limite las bebidas dulces, como las gaseosas y las bebidas con sabor a fruta. En cambio, sirva agua y leche descremada.
+              </p>
          </article>
    </main>
    <div class="clearfix"></div>
@@ -63,6 +125,7 @@
     </div>
       copyright-todo los derechos reservados
    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
