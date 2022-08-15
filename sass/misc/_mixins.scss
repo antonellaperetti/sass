@@ -1,0 +1,7 @@
+@mixin variablediv ( $width,$height, $margin-top,$text-align){
+        width:$width;
+        height:$heigth;
+        margin-top:$margin-top;
+        text-align:$text-aling;
+   
+}

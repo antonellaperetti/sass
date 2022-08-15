@@ -1,0 +1,79 @@
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-column-gap:9px;
+    grid-row-gap:9px;
+    .griduno{
+        background-image:url(../Image/un-buen-plato-contiene-vegetales___QuJaEbWAJ_2000x1500__1.webp);
+        background-size:cover;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+         animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+    .griddos{
+        background-image: url(../Image/file_20160624110902.jpeg);
+        background-size: cover;
+        width:600px;
+        height:300px;
+        object-fit: cover;  
+        animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+    .gridtres{
+    background-image: url(../Image/grafico-sectores-alimentos-saludables-aislado-sobre-fondo-blanco-fuentes-alimenticias-carbohidratos-proteinas-grasas-proporciones-adecuadas-dieta-alimentacion-saludable-planificacion-nutricional-vista-superior_92134-3058.webp);
+    background-size: cover;
+    width:300px;
+     height:300px;
+     object-fit: cover;
+     animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+    .gridcuatro{
+        background-image: url(../Image/plato_saludable_.jpeg);
+        background-size: cover;
+        width:300px;
+     height:300px;
+     object-fit: cover;
+     animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+    .gridcinco{
+        background-image: url(../Image/metodo-del-plato.jpeg); 
+        background-size: cover; 
+        width:600px;
+     height: 300px;
+     object-fit: cover;
+     animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+    .gridseis{
+        background-image: url(../Image/comer-saludable-equilibrado-sin-dieta.jpeg);
+        background-size: cover;
+        width:300px;
+     height:300px;
+     object-fit: cover;
+     animation-name: rotateme;
+         animation-duration: 3s;
+         animation-timing-function:linear;
+         animation-iteration-count:1;
+         animation-delay: 2s;
+    } 
+}

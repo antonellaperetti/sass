@@ -1,0 +1,439 @@
+/*misc*/
+/*colors*/
+html {
+  font-size: 62.5%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.titulo {
+  color: rgba(25, 23, 24, 0.776);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.texto {
+  font-size: large;
+  margin-top: 20px;
+  background-color: rgba(250, 245, 245, 0.525);
+  margin-top: 20px; }
+
+body {
+  background-color: aliceblue;
+  background-size: cover;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+  flex-direction: column;
+  min-height: 100vh; }
+
+@keyframes rotateme {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(160deg); } }
+
+/*partial*/
+.footer {
+  background-color: rgba(234, 211, 211, 0.799);
+  height: 80px;
+  margin-top: 20px;
+  text-align: center; }
+  .footer .redes-sociales-footer {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px; }
+  .footer .iconify {
+    width: 30px;
+    height: 30px;
+    color: red;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+header {
+  background-size: cover;
+  height: 400px;
+  background-image: url(../Image/Slide-03.jpeg);
+  background-size: cover; }
+  header .redes-sociales {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px; }
+
+nav ul li a {
+  display: block;
+  color: rgba(4, 7, 8, 0.843);
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+  position: relative;
+  background-color: rgba(240, 248, 255, 0.554); }
+
+/*views*/
+.form-register {
+  width: 400px;
+  background-color: rgba(236, 225, 225, 0.961);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: withe; }
+
+#seccion {
+  background-image: url(../Image/istockphoto-1319836430-170667a.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  float: end; }
+
+.box1 {
+  background-color: rgba(206, 231, 224, 0.814);
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  background-image: url(../Image/frutas14ng.png);
+  background-size: cover; }
+
+.box2 {
+  background-color: rgba(206, 231, 224, 0.814);
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  background-image: url(../Image/comida.png);
+  background-size: cover; }
+
+#seccion2 {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  float: end; }
+  #seccion2 .div1 {
+    background-color: rgba(229, 235, 238, 0.943);
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover; }
+    #seccion2 .div1 .articulo1 {
+      margin-top: 80px;
+      background-color: rgba(240, 248, 255, 0.581);
+      font-family: 'Times New Roman', Times, serif; }
+  #seccion2 .div2 {
+    background-color: rgba(229, 235, 238, 0.943);
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover; }
+    #seccion2 .div2 .articulo1 {
+      margin-top: 80px;
+      background-color: rgba(240, 248, 255, 0.581);
+      font-family: 'Times New Roman', Times, serif; }
+  #seccion2 .div3 {
+    background-color: rgba(229, 235, 238, 0.943);
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+    background-size: cover; }
+    #seccion2 .div3 .articulo1 {
+      margin-top: 80px;
+      background-color: rgba(240, 248, 255, 0.581);
+      font-family: 'Times New Roman', Times, serif; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 9px;
+  grid-row-gap: 9px; }
+  .grid .griduno {
+    background-image: url(../Image/un-buen-plato-contiene-vegetales___QuJaEbWAJ_2000x1500__1.webp);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+  .grid .griddos {
+    background-image: url(../Image/file_20160624110902.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+  .grid .gridtres {
+    background-image: url(../Image/grafico-sectores-alimentos-saludables-aislado-sobre-fondo-blanco-fuentes-alimenticias-carbohidratos-proteinas-grasas-proporciones-adecuadas-dieta-alimentacion-saludable-planificacion-nutricional-vista-superior_92134-3058.webp);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+  .grid .gridcuatro {
+    background-image: url(../Image/plato_saludable_.jpeg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+  .grid .gridcinco {
+    background-image: url(../Image/metodo-del-plato.jpeg);
+    background-size: cover;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+  .grid .gridseis {
+    background-image: url(../Image/comer-saludable-equilibrado-sin-dieta.jpeg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    animation-name: rotateme;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 2s; }
+
+/*mediaqueries*/
+/*mediaquerie hasta 320px*/
+@media screen and (max-width: 320px) {
+  .grid {
+    display: block;
+    flex-direction: column;
+    margin-left: 30px; }
+  ul {
+    display: block; }
+  .griduno {
+    width: 250px; }
+  .gridtres {
+    width: 250px; }
+  .gridcuatro {
+    width: 250px; }
+  .griddos {
+    background-size: cover;
+    width: 150px;
+    object-fit: cover; }
+  .gridcinco {
+    background-size: cover;
+    width: 150px;
+    object-fit: cover; }
+  .gridseis {
+    width: 250px; }
+  .box1 {
+    background-color: rgba(206, 231, 224, 0.814);
+    background-size: cover;
+    width: 250px;
+    height: 200px; }
+  .box2 {
+    background-color: rgba(206, 231, 224, 0.814);
+    background-size: cover;
+    width: 200px;
+    height: 200px; }
+  #seccion {
+    background-image: url(../Image/istockphoto-1319836430-170667a.jpeg);
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    float: end; }
+  #seccion2 {
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    float: end; }
+  .div1 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div2 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div3 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .footer {
+    background-color: rgba(234, 211, 211, 0.799);
+    height: 80px;
+    margin-top: 1000px;
+    text-align: center; } }
+
+/*mediaquerie hasta 480px*/
+@media screen and (max-width: 480px) {
+  ul {
+    display: block; }
+  .grid {
+    display: block;
+    flex-direction: column;
+    margin-left: 50px; }
+  .griddos {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .gridcinco {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .box1 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 100px; }
+  .box2 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 100px; }
+  #seccion {
+    background-image: url(../Image/istockphoto-1319836430-170667a.jpeg);
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    float: end; }
+  .form-register {
+    width: 250px;
+    background-color: rgba(236, 225, 225, 0.961);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: withe; }
+  .footer {
+    background-color: rgba(234, 211, 211, 0.799);
+    height: 80px;
+    margin-top: 317px;
+    text-align: center; }
+  #seccion2 {
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    float: end; }
+  .div1 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div2 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div3 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .footer {
+    background-color: rgba(234, 211, 211, 0.799);
+    height: 80px;
+    margin-top: 600px;
+    text-align: center; } }
+
+/*mediaqurie hasta 600px*/
+@media screen and (max-width: 600px) {
+  .grid {
+    display: block;
+    flex-direction: column; }
+  .griddos {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .gridcinco {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .box1 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 100px; }
+  .box2 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 100px; }
+  .div1 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div2 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; }
+  .div3 {
+    background-color: rgba(229, 235, 238, 0.943);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    font-size: x-small; } }
+
+/*mediaquerie desde 850px*/
+@media screen and (max-width: 850px) {
+  .grid {
+    display: inline-block; }
+  .griddos {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .gridcinco {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+  .box1 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 234px; }
+  .box2 {
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 250px;
+    height: 234px; } }

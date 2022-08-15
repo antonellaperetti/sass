@@ -1,0 +1,260 @@
+/*mediaquerie hasta 320px*/
+@media screen and (max-width:320px){
+    .grid{
+        display: block;
+        flex-direction: column;    
+        margin-left: 30px;
+    }
+   ul {
+        display:block;
+    }
+    .griduno{
+        width: 250px;
+    }
+    .gridtres{
+        width: 250px;
+    }
+    .gridcuatro{
+        width: 250px;
+    }
+    .griddos{
+        background-size: cover;
+        width:150px;
+        object-fit: cover;  
+    }
+    .gridcinco{
+        background-size: cover; 
+        width:150px;
+     object-fit: cover;
+     }
+     .gridseis{
+         width: 250px;
+     }
+     .box1{
+        background-color:rgba(206, 231, 224, 0.814);
+        background-size: cover;
+        width: 250px;
+        height: 200px;
+    }
+    .box2{
+        background-color: rgba(206, 231, 224, 0.814);
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+    }
+    #seccion{
+        background-image:url(../Image/istockphoto-1319836430-170667a.jpeg);
+        background-size: cover;
+        display:block;
+        justify-content:center;
+        width: 250px;
+        height: 200px;
+        float: end; 
+    }
+    #seccion2{
+        display:block;
+        justify-content:center;
+        width: 250px;
+        height: 200px;
+        float: end; 
+    }
+    .div1{
+        background-color:rgba(229, 235, 238, 0.943);
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        font-size: x-small;
+        }
+        .div2{
+            background-color:rgba(229, 235, 238, 0.943);
+         background-size: cover;
+         width: 200px;
+         height: 200px;
+         font-size: x-small;
+        }
+
+        .div3{
+            background-color:rgba(229, 235, 238, 0.943);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            font-size: x-small;
+           }
+    .footer {
+        background-color: rgba(234, 211, 211, 0.799);
+        height: 80px;
+        margin-top: 1000px;
+        text-align: center;
+   }   
+}
+/*mediaquerie hasta 480px*/
+@media screen and (max-width:480px){
+    ul {
+         display:block;
+     }
+        .grid{
+            display: block;
+            flex-direction: column; 
+            margin-left: 50px;
+        }
+        .griddos{
+            background-size: cover;
+            width:300px;
+            height:300px;
+            object-fit: cover;  
+        }
+        .gridcinco{
+            background-size: cover; 
+            width:300px;
+         height: 300px;
+         object-fit: cover;
+         }
+         .box1{
+            background-color: rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 100px;
+        }
+        .box2{
+            background-color:rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 100px;
+    }
+    #seccion{
+        background-image:url(../Image/istockphoto-1319836430-170667a.jpeg);
+        background-size: cover;
+        display:block;
+        justify-content:center;
+        width: 250px;
+        height: 200px;
+        float: end;   
+    }
+    .form-register{
+        width: 250px;
+        background-color: rgba(236, 225, 225, 0.961);
+        padding: 30px;
+        margin:auto;
+        margin-top: 100px;
+        border-radius: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: withe; 
+    }
+    .footer {
+        background-color: rgba(234, 211, 211, 0.799);
+        height: 80px;
+        margin-top: 317px;
+        text-align: center;
+    }  
+    #seccion2{
+        display:block;
+        justify-content:center;
+        width: 250px;
+        height: 200px;
+        float: end; 
+    }
+    
+    .div1{
+        background-color:rgba(229, 235, 238, 0.943);
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        font-size: x-small;
+        }
+        .div2{
+            background-color:rgba(229, 235, 238, 0.943);
+         background-size: cover;
+         width: 200px;
+         height: 200px;
+         font-size: x-small;
+        }
+    .div3{
+        background-color:rgba(229, 235, 238, 0.943);
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        font-size: x-small;
+       }
+       .footer {
+        background-color: rgba(234, 211, 211, 0.799);
+        height: 80px;
+        margin-top: 600px;
+        text-align: center;
+    }   
+    }
+    /*mediaqurie hasta 600px*/
+    @media screen and (max-width:600px){
+        .grid{
+            display: block;
+            flex-direction: column; 
+        }
+        .griddos{
+            background-size: cover;
+            width:300px;
+            height:300px;
+            object-fit: cover;   
+        }
+        .gridcinco{
+            background-size: cover; 
+            width:300px;
+         height: 300px;
+         object-fit: cover;
+         }
+         .box1{
+            background-color: rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 100px;
+        }
+        .box2{
+            background-color:rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 100px;
+        }
+        .div1{
+            background-color:rgba(229, 235, 238, 0.943);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            font-size: x-small;
+            }
+            .div2{
+                background-color:rgba(229, 235, 238, 0.943);
+             background-size: cover;
+             width: 200px;
+             height: 200px;
+             font-size: x-small;
+            }
+            .div3{
+                background-color:rgba(229, 235, 238, 0.943);
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+                font-size: x-small;
+               }
+     }
+     /*mediaquerie desde 850px*/
+     @media screen and (max-width:850px){
+        .grid{
+            display: inline-block;  
+        }
+        .griddos{
+            background-size: cover;
+            width:300px;
+            height:300px;
+            object-fit: cover;  
+        }
+        .gridcinco{
+            background-size: cover; 
+            width:300px;
+         height: 300px;
+         object-fit: cover;
+         }
+         .box1{
+            background-color: rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 234px;
+        }
+        .box2{
+            background-color: rgba(206, 231, 224, 0.814);
+            width: 250px;
+            height: 234px;
+        }
+    }

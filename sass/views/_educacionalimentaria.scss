@@ -1,0 +1,25 @@
+#seccion{
+    background-image:url(../Image/istockphoto-1319836430-170667a.jpeg);
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    height: 500px;
+    float: end;  
+}
+.box1{
+    background-color: rgba(206, 231, 224, 0.814);
+    width:400px;
+    height:400px;
+    margin-top: 40px;
+    background-image: url(../Image/frutas14ng.png);
+    background-size:cover ;
+}
+.box2{
+    background-color: rgba(206, 231, 224, 0.814);
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    background-image: url(../Image/comida.png);
+    background-size: cover;
+    
+}

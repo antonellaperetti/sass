@@ -1,0 +1,23 @@
+header{
+
+    background-size: cover;
+    height:400px;
+   background-image:url(../Image/Slide-03.jpeg);
+   background-size: cover;
+   .redes-sociales{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:10px;
+}
+  }
+  nav ul li a{
+    display:block;
+    color:rgba(4, 7, 8, 0.843);
+    font-size:18px;
+    text-decoration: none;
+    display:flex;
+    justify-content:space-between;
+    margin:12px;
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.554);
+}

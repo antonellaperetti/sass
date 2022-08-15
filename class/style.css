@@ -16,10 +16,6 @@ box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
     color: withe; 
 }
-.form-register h4{
-    font-size: 23px;
-    margin: bottom 21px; ;
-}
 .controls{
     width: 100%;
     background-color: rgba(246, 242, 242, 0.888);
@@ -123,7 +119,6 @@ ul{
     margin-top:12px
 }
 header{
-
   background-size: cover;
   height:400px;
  background-image:url(../Image/Slide-03.jpeg);
@@ -495,8 +490,6 @@ ul {
     margin-top: 600px;
     text-align: center;
 }   
-
-
 }
 /*mediaqurie hasta 600px*/
 @media screen and (max-width:600px){
