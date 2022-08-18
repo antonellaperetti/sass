@@ -276,7 +276,7 @@ width:400px;
     text-align: center;
     background-size:cover ;
     font-size: medium;
-    background-image: url(../Image/Copia\ de\ klipartz.com-141\ 2.png);
+    background-image: url(../Image/frutilla.png);
     background-size: 400px;
 }
 .div2{
@@ -287,7 +287,7 @@ width:400px;
     text-align: center;
     background-size:cover ;
     font-size: medium;
-    background-image: url(../Image/Copia\ de\ klipartz.com-141.png);
+    background-image: url(../Image/frambuesa.png);
     background-size: 400px;
 }
 .articulo1{
@@ -303,8 +303,7 @@ width:400px;
        text-align: center;
        background-size:cover ;
        font-size: medium;
-     
-      background-image: url(../Image/klipartz.com-142.png);
+      background-image: url(../Image/arandanos.png);
       background-size: 400px;
 }
 /*mediaquerie hasta 320px*/

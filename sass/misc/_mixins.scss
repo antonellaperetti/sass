@@ -1,7 +1,7 @@
-@mixin variablediv ( $width,$height, $margin-top,$text-align){
+@mixin variable ( $width,$height, $margin-top,$text-align){
         width:$width;
-        height:$heigth;
+        height:$height;
         margin-top:$margin-top;
-        text-align:$text-aling;
+        text-align:$text-align;
    
 }
